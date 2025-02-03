@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
     "atom": "^1.4.2",
     "jotai": "^2.11.1",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.3",
     "sass": "^1.83.4",
     "scss": "^0.2.4"
   },

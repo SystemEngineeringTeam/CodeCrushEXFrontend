@@ -1,0 +1,50 @@
+.codeBoxAll {
+    width: 854px;
+    height: 504px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.codeBox {
+    box-sizing: border-box;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-red);
+    border-radius: 30px;
+    padding: 20px 25px 10px 25px;
+    width: 100%;
+}
+.codeHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.text {
+    color: var(--color-medium-gray);
+    font-weight: 900;
+    font-size: var(--font-size-20);
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.documentBox {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 80%;
+    width: 100%;
+    color: var(--color-medium-gray);
+}
+
+.documentBox h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.documentBox h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}

@@ -2,10 +2,10 @@ import { TextButton } from "../elements/TextButton";
 import styles from "../../app/matching/page.module.scss";
 import roomselection from "../../components/layout/RoomSelection.module.scss";
 import { useSetAtom } from "jotai";
-import { MachingStatusAtom } from "@/atoms/matchingStore";
+import { matchingStatusAtom } from "@/atoms/matchingStore";
 
 export const RoomSelection = () => {
-    const setMatchingStatus = useSetAtom(MachingStatusAtom);
+    const setMatchingStatus = useSetAtom(matchingStatusAtom);
     return (
         <div className={`${styles.contentBox} ${roomselection.buttonBox}`}>
             <TextButton
